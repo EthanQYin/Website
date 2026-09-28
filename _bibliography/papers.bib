@@ -1,13 +1,32 @@
----
----
-
+% ============================================================
+% _bibliography/papers.bib  —  替换模板里的整个文件
+%
+% al-folio 识别的自定义字段（不写就不显示对应按钮）：
+%   arxiv={编号}        -> arXiv 按钮（只填编号，不要 URL）
+%   html={链接}         -> HTML 按钮（论文页 / SSRN / 会议页 / 期刊 DOI 页）
+%   pdf={链接或文件名}  -> PDF 按钮（本地文件放 assets/pdf/）
+%   code={链接}         -> Code 按钮
+%   slides={链接或文件} -> Slides 按钮
+%   abstract={...}      -> Abs 按钮（点开才显示）
+%   bibtex_show={true}  -> Bib 按钮
+%   selected={true}     -> 显示在首页 selected publications
+%   annotation={...}    -> 作者旁的 (i) 图标，用来说明 * 等标记
+%   note={...}          -> 在期刊/会议那行下面单独显示一行状态（Forthcoming、Major revision 等）
+%   status={...}        -> 自定义分类字段，只给 publications 页面分区用：journal / conference / working
+% 作者名后面直接跟 * 表示同等贡献，模板会自动上标并仍然识别你的名字。
+% 同一分区（或同一年）内的顺序 = 这个文件里的先后顺序。
+% ============================================================
+ 
+% ---------- 期刊 ----------
+ 
+% TODO: 核对 SSRN 链接后，在条目里加一行  html = {https://papers.ssrn.com/abstract=6175079},
+%       正式刊出后换成 Management Science 的 DOI 链接
 @article{hu_token,
   title       = {Token Design for Favor Trading with Dynamic Membership},
   author      = {Hu, Xing and Wan, Zhixi and Yin, Qichuan},
   journal     = {Management Science},
   note        = {Forthcoming},
   status      = {journal},
-  % html      = {https://papers.ssrn.com/abstract=6175079},
   selected    = {true},
   bibtex_show = {true},
   abstract    = {The existing literature on trading-favor systems, or scrip systems, generally assumes a fixed set of participants. We study the design of a trading-favor system that allows participants to join and exit. We examine how the dynamics of participation create challenges to participants' strategies and, consequently, the design of the system. We introduce a token exchange mechanism that can be implemented by simple smart contracts. Such mechanism can regulate token distribution, evaluate token value and fairly adjust the total number of tokens in circulation. We show that the mechanism can induce participants to adopt an always-trade strategy in equilibrium, resulting in robust and highly efficient resource sharing in the decentralized system.}
@@ -55,7 +74,8 @@
  
 % ---------- 工作论文 / 在审 ----------
  
-% TODO: 核对 SSRN 链接后把 html 那行的 % 去掉；接收后改成 @article + journal = {Management Science}，删掉 note
+% TODO: 核对 SSRN 链接后，在条目里加一行  html = {https://papers.ssrn.com/abstract=6078686},
+%       接收后把 journal 改成 {Management Science}，删掉 note
 @article{yin2026synthetic,
   title       = {Synthetic but Not Infinite: How Much {LLM}-Generated Data to Use in Market Research},
   author      = {Yin, Qichuan and Xin, Linwei},
@@ -63,8 +83,8 @@
   year        = {2026},
   note        = {Major revision at Management Science},
   status      = {working},
-  % html      = {https://papers.ssrn.com/abstract=6078686},
   selected    = {true},
   bibtex_show = {true},
   abstract    = {Large Language Models (LLMs) have transformed data generation by enabling scalable synthetic data augmentation. This paper studies a fundamental question in market research: how much synthetic data should be used? In the existing literature, the proportion of LLM-generated synthetic data is usually treated as a hyperparameter, tuned by ad hoc experimentation. In addition, a more important yet unexplored question is how the optimal amount of synthetic data should vary across different population segments, e.g., between younger and older respondents. In this work, we address these challenges by deriving a closed-form expression for this highly heterogeneous hyperparameter vector that governs the proportion of synthetic data. This prescriptive characterization arises from our analysis of a logit choice model that integrates real and synthetic data, under which we establish a finite-sample complexity bound for the estimation error of the resulting hybrid estimator. Specifically, our expression for the heterogeneous proportion of synthetic data corresponds to the one that minimizes this upper bound. We further demonstrate the strong empirical performance of our closed-form expression using both synthetic data and a real-world vaccine preference dataset. Overall, our results suggest that the closed-form expression serves as a practical and reliable empirical rule of thumb for determining how much LLM-generated synthetic data to incorporate into market research studies.}
 }
+ 
