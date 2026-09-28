@@ -1,115 +1,70 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{hu_token,
+  title       = {Token Design for Favor Trading with Dynamic Membership},
+  author      = {Hu, Xing and Wan, Zhixi and Yin, Qichuan},
+  journal     = {Management Science},
+  note        = {Forthcoming},
+  status      = {journal},
+  % html      = {https://papers.ssrn.com/abstract=6175079},
+  selected    = {true},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  abstract    = {The existing literature on trading-favor systems, or scrip systems, generally assumes a fixed set of participants. We study the design of a trading-favor system that allows participants to join and exit. We examine how the dynamics of participation create challenges to participants' strategies and, consequently, the design of the system. We introduce a token exchange mechanism that can be implemented by simple smart contracts. Such mechanism can regulate token distribution, evaluate token value and fairly adjust the total number of tokens in circulation. We show that the mechanism can induce participants to adopt an always-trade strategy in equilibrium, resulting in robust and highly efficient resource sharing in the decentralized system.}
 }
-
-@article{einstein1950meaning,
-  abbr        = {AJP},
+ 
+% ---------- 会议 ----------
+ 
+@inproceedings{yin2026dpmerging,
+  title       = {Differentially Private Model Merging},
+  author      = {Yin, Qichuan and Zaheer, Manzil and Li, Tian},
+  booktitle   = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year        = {2026},
+  status      = {conference},
+  arxiv       = {2604.20985},
+  selected    = {true},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  abstract    = {In machine learning, privacy requirements at inference or deployment time often evolve due to changing policies, regulations, or user preferences. In this work, we aim to construct a magnitude of models to satisfy any target differential privacy (DP) requirement without additional training, given a set of existing models trained on the same dataset with different privacy/utility tradeoffs. We propose two post-processing techniques, namely random selection and linear combination, to generate final private models satisfying any target privacy parameter. We provide privacy accounting of these approaches from the lens of R\'enyi DP and privacy loss distributions on general problems, as well as on private mean estimation, where we precisely characterize the privacy/utility tradeoffs and compare the two mechanisms. Empirically, we demonstrate the effectiveness of our approaches and validate our analyses on several models and both synthetic and real-world datasets.}
 }
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+ 
+@inproceedings{yin2026incentive,
+  title       = {Overcoming the Incentive Collapse Paradox},
+  author      = {Yin*, Qichuan and Su*, Ziwei and Li, Shuangning},
+  booktitle   = {International Conference on Machine Learning (ICML)},
+  year        = {2026},
+  status      = {conference},
+  arxiv       = {2603.27049},
+  html        = {https://icml.cc/virtual/2026/poster/60666},
+  annotation  = {* Equal contribution},
+  selected    = {true},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  abstract    = {AI-assisted task delegation is increasingly common, yet human effort in such systems is costly and typically unobserved. Recent work by Bastani and Cachon (2025); Sambasivan et al. (2021) shows that accuracy-based payment schemes suffer from incentive collapse: as AI accuracy improves, sustaining positive human effort requires unbounded payments. We study this problem in a budget-constrained principal-agent framework with strategic human agents whose output accuracy depends on unobserved effort. We propose a sentinel-auditing payment mechanism that enforces a strictly positive and controllable level of human effort at finite cost, independent of AI accuracy. Building on this incentive-robust foundation, we develop an incentive-aware active statistical inference framework that jointly optimizes (i) the auditing rate and (ii) active sampling and budget allocation across tasks of varying difficulty to minimize the final statistical loss under a single budget. Experiments demonstrate improved cost-error tradeoffs relative to standard active learning and auditing-only baselines.}
 }
-
-@book{przibram1967letters,
+ 
+% TODO: 核对作者顺序（arXiv v2 是五位作者）
+@inproceedings{yin2026fedfairee,
+  title       = {Distribution-Free Fair Federated Learning with Small Samples},
+  author      = {Yin, Qichuan and Wang, Zexian and Huang, Junzhou and Yao, Huaxiu and Zhang, Linjun},
+  booktitle   = {ASA Statistical Learning and Data Science (SLDS) Conference},
+  year        = {2026},
+  status      = {conference},
+  arxiv       = {2402.16158},
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  abstract    = {As federated learning gains increasing importance in real-world applications due to its capacity for decentralized data training, addressing fairness concerns across demographic groups becomes critically important. However, most existing machine learning algorithms for ensuring fairness are designed for centralized data environments and generally require large-sample and distributional assumptions, underscoring the urgent need for fairness techniques adapted for decentralized and heterogeneous systems with finite-sample and distribution-free guarantees. To address this issue, this paper introduces FedFaiREE, a post-processing algorithm developed specifically for distribution-free fair learning in decentralized settings with small samples. Our approach accounts for unique challenges in decentralized environments, such as client heterogeneity, communication costs, and small sample sizes. We provide rigorous theoretical guarantees for both fairness and accuracy, and our experimental results further provide robust empirical validation for our proposed method.}
+}
+ 
+% ---------- 工作论文 / 在审 ----------
+ 
+% TODO: 核对 SSRN 链接后把 html 那行的 % 去掉；接收后改成 @article + journal = {Management Science}，删掉 note
+@article{yin2026synthetic,
+  title       = {Synthetic but Not Infinite: How Much {LLM}-Generated Data to Use in Market Research},
+  author      = {Yin, Qichuan and Xin, Linwei},
+  journal     = {Working paper},
+  year        = {2026},
+  note        = {Major revision at Management Science},
+  status      = {working},
+  % html      = {https://papers.ssrn.com/abstract=6078686},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {Large Language Models (LLMs) have transformed data generation by enabling scalable synthetic data augmentation. This paper studies a fundamental question in market research: how much synthetic data should be used? In the existing literature, the proportion of LLM-generated synthetic data is usually treated as a hyperparameter, tuned by ad hoc experimentation. In addition, a more important yet unexplored question is how the optimal amount of synthetic data should vary across different population segments, e.g., between younger and older respondents. In this work, we address these challenges by deriving a closed-form expression for this highly heterogeneous hyperparameter vector that governs the proportion of synthetic data. This prescriptive characterization arises from our analysis of a logit choice model that integrates real and synthetic data, under which we establish a finite-sample complexity bound for the estimation error of the resulting hybrid estimator. Specifically, our expression for the heterogeneous proportion of synthetic data corresponds to the one that minimizes this upper bound. We further demonstrate the strong empirical performance of our closed-form expression using both synthetic data and a real-world vaccine preference dataset. Overall, our results suggest that the closed-form expression serves as a practical and reliable empirical rule of thumb for determining how much LLM-generated synthetic data to incorporate into market research studies.}
 }
