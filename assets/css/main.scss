@@ -1,0 +1,32 @@
+---
+# 放到你仓库的 assets/css/main.scss —— 同路径文件会覆盖 al_folio_core gem 里的入口文件。
+# 这两行 --- 是 Jekyll 前置标记，必须保留。
+---
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+/* gem 里 _sass/_variables.scss 的颜色变量都带 !default，
+   所以只需在这里用 with() 配置，不用拷贝任何 _sass 文件。 */
+@use "variables" with (
+  $purple-color: #1f3a5f,   // 浅色模式主题色：链接、导航高亮、按钮边框。可换成 #444 等
+  $cyan-color: #1f3a5f,     // 深色模式主题色（关了 darkmode 也顺手统一）
+  $max-content-width: {{ site.max_width | default: "930px" }}
+);
+
+/* 下面与 gem 里的原文件一致，不要删 */
+@use "themes";
+@use "layout";
+
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+@use "tabs";
+@use "teachings";
+@use "typograms";
