@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'> PhD student in Statistics, University of Chicago.
 
 profile:
   align: right
@@ -25,8 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in the [Department of Statistics](https://stat.uchicago.edu/) at the University of Chicago (since 2024), advised by [Shuangning Li](https://lsn235711.github.io/). I also work closely with [Xinran Li](https://sites.google.com/view/xinranli/), [Tian Li](https://litian96.github.io/), and [Linwei Xin](https://xin.engineering.cornell.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research sits at the interface of statistics, machine learning, and operations research. I am currently most interested in the theory of large language models and in mechanism design for human–AI collaboration. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before Chicago, I received my B.S. in Mathematics and Applied Mathematics from Peking University. During my undergraduate years I was fortunate to be advised by [Ruixun Zhang](https://ruixunzhang.com/), [Linjun Zhang](https://linjunz.github.io/), [Jing Dong](https://business.columbia.edu/faculty/people/jing-dong), and [Pengyi Shi](https://web.ics.purdue.edu/~shi178/). After graduating, I spent a summer as a visiting scholar at the University of Hong Kong, hosted by [Zhixi Wan](https://www.hkubs.hku.hk/people/zhixi-wan/) and [Xing Hu](https://www.xinghu.org/).
+
+I am always happy to talk about research or potential collaborations. Feel free to reach out at [qichuan@uchicago.edu](mailto:qichuan@uchicago.edu).
