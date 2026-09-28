@@ -31,6 +31,18 @@
   bibtex_show = {true},
   abstract    = {The existing literature on trading-favor systems, or scrip systems, generally assumes a fixed set of participants. We study the design of a trading-favor system that allows participants to join and exit. We examine how the dynamics of participation create challenges to participants' strategies and, consequently, the design of the system. We introduce a token exchange mechanism that can be implemented by simple smart contracts. Such mechanism can regulate token distribution, evaluate token value and fairly adjust the total number of tokens in circulation. We show that the mechanism can induce participants to adopt an always-trade strategy in equilibrium, resulting in robust and highly efficient resource sharing in the decentralized system.}
 }
+
+% TODO: 核对作者顺序（arXiv v2 是五位作者）
+@inproceedings{yin2026fedfairee,
+  title       = {Distribution-Free Fair Federated Learning with Small Samples},
+  author      = {Yin, Qichuan and Wang, Zexian and Huang, Junzhou and Yao, Huaxiu and Zhang, Linjun},
+  booktitle   = {ASA Statistical Learning and Data Science (SLDS)},
+  year        = {2026},
+  status      = {journal},
+  arxiv       = {2402.16158},
+  bibtex_show = {true},
+  abstract    = {As federated learning gains increasing importance in real-world applications due to its capacity for decentralized data training, addressing fairness concerns across demographic groups becomes critically important. However, most existing machine learning algorithms for ensuring fairness are designed for centralized data environments and generally require large-sample and distributional assumptions, underscoring the urgent need for fairness techniques adapted for decentralized and heterogeneous systems with finite-sample and distribution-free guarantees. To address this issue, this paper introduces FedFaiREE, a post-processing algorithm developed specifically for distribution-free fair learning in decentralized settings with small samples. Our approach accounts for unique challenges in decentralized environments, such as client heterogeneity, communication costs, and small sample sizes. We provide rigorous theoretical guarantees for both fairness and accuracy, and our experimental results further provide robust empirical validation for our proposed method.}
+}
  
 % ---------- 会议 ----------
  
@@ -60,17 +72,6 @@
   abstract    = {AI-assisted task delegation is increasingly common, yet human effort in such systems is costly and typically unobserved. Recent work by Bastani and Cachon (2025); Sambasivan et al. (2021) shows that accuracy-based payment schemes suffer from incentive collapse: as AI accuracy improves, sustaining positive human effort requires unbounded payments. We study this problem in a budget-constrained principal-agent framework with strategic human agents whose output accuracy depends on unobserved effort. We propose a sentinel-auditing payment mechanism that enforces a strictly positive and controllable level of human effort at finite cost, independent of AI accuracy. Building on this incentive-robust foundation, we develop an incentive-aware active statistical inference framework that jointly optimizes (i) the auditing rate and (ii) active sampling and budget allocation across tasks of varying difficulty to minimize the final statistical loss under a single budget. Experiments demonstrate improved cost-error tradeoffs relative to standard active learning and auditing-only baselines.}
 }
  
-% TODO: 核对作者顺序（arXiv v2 是五位作者）
-@inproceedings{yin2026fedfairee,
-  title       = {Distribution-Free Fair Federated Learning with Small Samples},
-  author      = {Yin, Qichuan and Wang, Zexian and Huang, Junzhou and Yao, Huaxiu and Zhang, Linjun},
-  booktitle   = {ASA Statistical Learning and Data Science (SLDS) Conference},
-  year        = {2026},
-  status      = {conference},
-  arxiv       = {2402.16158},
-  bibtex_show = {true},
-  abstract    = {As federated learning gains increasing importance in real-world applications due to its capacity for decentralized data training, addressing fairness concerns across demographic groups becomes critically important. However, most existing machine learning algorithms for ensuring fairness are designed for centralized data environments and generally require large-sample and distributional assumptions, underscoring the urgent need for fairness techniques adapted for decentralized and heterogeneous systems with finite-sample and distribution-free guarantees. To address this issue, this paper introduces FedFaiREE, a post-processing algorithm developed specifically for distribution-free fair learning in decentralized settings with small samples. Our approach accounts for unique challenges in decentralized environments, such as client heterogeneity, communication costs, and small sample sizes. We provide rigorous theoretical guarantees for both fairness and accuracy, and our experimental results further provide robust empirical validation for our proposed method.}
-}
  
 % ---------- 工作论文 / 在审 ----------
  
